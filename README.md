@@ -1,5 +1,3 @@
-# Edit README.md and paste this:
-cat > README.md << 'EOF'
 # 🎓 SnapLearn - AI for Bharat Hackathon
 
 AI-powered learning assistant for rural Indian students
