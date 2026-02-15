@@ -2,17 +2,30 @@
 
 <div align="center">
 
-![SnapLearn Banner](https://img.shields.io/badge/AI%20for%20Bharat-Hackathon%202025-orange?style=for-the-badge)
+![SnapLearn Banner](https://img.shields.io/badge/AI%20for%20Bharat-Hackathon%202026-orange?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-Powered-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ### *Democratizing Education for 156 Million Indian Students*
 
-**[📖 Requirements](requirements.md)** • **[🏗️ Design](design.md)** • **[📧 Contact](#contact)**
-
 ---
 
 </div>
+
+## 📚 Documentation
+
+<div align="center">
+
+### 📋 **[Requirements Document](requirements.md)** | 🏗️ **[Design Document](design.md)**
+
+| Document | Description |
+|----------|-------------|
+| [📋 requirements.md](requirements.md) | User stories, functional requirements (FR1-FR10), non-functional requirements, success metrics, technical constraints |
+| [🏗️ design.md](design.md) | System architecture, AWS service integration, DynamoDB schema, API specs, security & scalability |
+
+</div>
+
+---
 
 ## 🌟 The Problem We're Solving
 
@@ -169,27 +182,6 @@ The app will open at `http://localhost:5173` 🎉
 
 ---
 
-## 📚 Documentation
-
-### 📋 **[Requirements Document](requirements.md)**
-Complete product requirements including:
-- User stories & personas
-- Functional requirements (FR1-FR10)
-- Non-functional requirements (NFR1-NFR7)
-- Success metrics & KPIs
-- Technical constraints
-
-### 🏗️ **[Design Document](design.md)**
-System architecture & technical design:
-- High-level architecture diagrams
-- Component breakdowns
-- AWS service integration details
-- Database schema
-- API specifications
-- Security & scalability strategy
-
----
-
 ## 🎨 The SnapLearn Experience
 
 ### **For Students** 📚
@@ -261,25 +253,25 @@ Phase 3 (Year 2): B2B schools ₹5K/school → 500 schools
 
 ## 🎯 Roadmap
 
-### **Q1 2025 - MVP Launch** 🚀
+### **Q1 2026 - MVP Launch** 🚀
 - ✅ Hindi voice support
 - ✅ 5 subjects (Math, Science, Hindi, English, Social Studies)
 - ✅ Homework helper with image recognition
 - ✅ 100 school pilot program (Bihar, UP, Rajasthan)
 
-### **Q2 2025 - Language Expansion** 🌐
+### **Q2 2026 - Language Expansion** 🌐
 - Add Tamil, Telugu, Bengali, Marathi, Gujarati
 - NCERT textbook full integration
 - Parent dashboard with progress tracking
 - Teacher collaboration tools
 
-### **Q3 2025 - Advanced Features** 🧠
+### **Q3 2026 - Advanced Features** 🧠
 - Video explanations (AI-generated)
 - Peer learning network with gamification
 - Exam prediction engine (board exams)
 - Enhanced offline mode (1-month packages)
 
-### **Q4 2025 - Scale** 📈
+### **Q4 2026 - Scale** 📈
 - 10 languages total
 - 1M active users milestone
 - Government partnerships (CSC, DIKSHA, NIOS)
@@ -319,7 +311,7 @@ Phase 3 (Year 2): B2B schools ₹5K/school → 500 schools
 📱 **Phone:** +91 7448865095  
 🌐 **GitHub:** [github.com/gurugsv7/snaplearn-ai](https://github.com/gurugsv7/snaplearn-ai)
 
-### Hackathon: **AWS AI for Bharat 2025** 🏆
+### Hackathon: **AWS AI for Bharat 2026** 🏆
 
 ---
 
@@ -370,6 +362,6 @@ If you believe in democratizing education, give us a star! ⭐
 
 *Built with 💚 for Indian students by SnapLearn Team*
 
-**AWS AI for Bharat Hackathon 2025**
+**AWS AI for Bharat Hackathon 2026**
 
 </div>
