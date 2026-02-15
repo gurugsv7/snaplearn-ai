@@ -1,53 +1,80 @@
-# SnapLearn - AI for Bharat Hackathon Submission
+# Edit README.md and paste this:
+cat > README.md << 'EOF'
+# 🎓 SnapLearn - AI for Bharat Hackathon
 
 AI-powered learning assistant for rural Indian students
 
-## Overview
+## 🚀 Live Demo
+[Coming Soon]
 
-SnapLearn is a voice-first, multilingual AI-powered learning platform designed for 156 million students in rural and semi-urban India who cannot afford private tuition. It uses AWS AI services to provide personalized, context-aware tutoring in Hindi and regional languages.
+## 📖 About
+Voice-first, multilingual educational platform helping 156M students in rural India who can't afford private tuition (₹50K/year).
 
-## Key Features
+### ✨ Key Features
+- 🗣️ **Voice-First**: Ask questions in Hindi, no typing needed
+- 🌾 **Hyperlocal**: Learn with examples from YOUR world (farms, villages)
+- 📸 **Homework Helper**: Upload photo → Get instant solutions
+- 🧠 **Context-Aware**: AI remembers your grade, location, learning history
+- 💚 **Emotion Detection**: Adjusts teaching style when you're frustrated
+- 📴 **Offline-First**: Works without internet
 
-- **Voice-First Learning** - Ask questions in Hindi using voice, no typing needed
-- **Homework Helper** - Upload photos of homework for step-by-step solutions
-- **Context-Aware** - Adapts examples based on student's location (rural/urban)
-- **Offline Mode** - Download weekly content for areas with poor connectivity
-- **Progress Tracking** - Track learning progress and identify weak areas
+## 📚 Documentation
+- [📋 Requirements](requirements.md) - Product requirements & user stories
+- [🏗️ Design](design.md) - System architecture & AWS integration
 
-## Documentation
+## 🛠️ Tech Stack
 
-- [requirements.md](requirements.md) - Product requirements document
-- [design.md](design.md) - System design and architecture
+### Frontend
+- React (Vite)
+- React Native (Mobile)
 
-## Tech Stack
+### AWS AI Services
+- **Amazon Bedrock** - Claude Sonnet for conversational AI
+- **AWS Transcribe** - Speech-to-text (Hindi)
+- **AWS Polly** - Text-to-speech (Hindi)
+- **Amazon Rekognition** - Homework image analysis
 
-- **Frontend:** React (Vite)
-- **AI Services:** Amazon Bedrock (Claude Sonnet 4.5), AWS Transcribe, AWS Polly, Amazon Rekognition
-- **Backend:** AWS Lambda, API Gateway
-- **Database:** Amazon DynamoDB
-- **Storage:** Amazon S3, CloudFront CDN
+### Backend
+- AWS Lambda (Serverless)
+- Amazon DynamoDB (Database)
+- Amazon S3 (Storage)
+- AWS API Gateway
+- Amazon Cognito (Auth)
 
-## Team
+## 🎯 Target Users
+- **156M students** in rural/semi-urban India
+- Classes 6-12
+- Can't afford ₹50K/year tuition
+- Prefer Hindi over English
 
-SnapLearn
+## 💡 Innovation
+Unlike generic chatbots, SnapLearn:
+- Remembers your context (grade, location, history)
+- City student? Park examples. Village student? Farm examples.
+- Detects frustration in voice → Adjusts explanation style
+- Works offline after downloading content
 
-## Hackathon
+## 👥 Team
+**SnapLearn**
 
+## 🏆 Hackathon
 AWS AI for Bharat 2025
 
-## Getting Started
+## 📊 Impact
+- **260M** students in India
+- **156M** can't access quality education
+- **1:35** teacher-student ratio in govt schools
+- **70%** prefer mother tongue learning
 
-```bash
-# Install dependencies
-npm install
+## 📞 Contact
+[Your Email/Contact]
 
-# Run development server
-npm run dev
+---
 
-# Build for production
-npm run build
-```
+*Built with ❤️ for Indian students*
+EOF
 
-## License
-
-MIT
+# Commit and push the updated README
+git add README.md
+git commit -m "Update README with better formatting"
+git push
